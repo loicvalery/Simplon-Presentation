@@ -14,38 +14,29 @@ $code_html="<section class='section_simplon'>
 Le métier de référent numérique consiste à accompagner les structures dans la mise en place de solutions numériques adaptées à leurs besoins. 
 La formation est menée conjointement par :
 <ul class='card-simplon-liste'>
-	<li><a href='https://www.insa-rouen.fr/'>l’INSA</a> ;</li>
-	<li><a href='https://www.cesi.fr/'>le CESI</a> ;</li>
+	<li>l’<a href='https://www.insa-rouen.fr/'>INSA</a> ;</li>
+	<li>le <a href='https://www.cesi.fr/'>CESI</a> ;</li>
 	<li><a href='https://simplonline.co/'>Simplon.co</a>.</p></li>
 </ul>
 </div>
 </section>
 <style>
 .section_simplon{
-	background-color: #000;
-	width: 50%;
+	font-family: 'Open Sans', sans-serif;
+	width: 35rem;
 	display: flex;
-	padding: 2em;
-}
-
-.card-simplon-logo{
-	float:right;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-size: 0.75rem;
+	padding: 1rem;
 }
 
 .panel_simplon, .panel_simplon a{
-	color:#fff;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	font-size: 16px;
 	justify-content: center;
 }
 
 .panel_simplon em{
 	color: #c30044;
-}
-
-.panel_simplon a:hover{
-	color:#ee144f;
 }
 
 .card-simplon-liste{
